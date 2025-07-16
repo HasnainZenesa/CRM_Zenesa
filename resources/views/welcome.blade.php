@@ -5,12 +5,10 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="description" content="">
 <meta name="author" content="Webpixels">
-<link rel="icon" type="image/x-icon" href="../../public/favicon.svg">
+<link rel="icon" type="image/x-icon" href="{{ asset('zenesa tech svg-01.svg') }}">
 <title>Zenesa Tech</title>
-
 <link rel="stylesheet" href="../assets/vendor/themify-icons/themify-icons.css">
 <link rel="stylesheet" href="../assets/vendor/fontawesome/css/font-awesome.min.css">
-
 <link rel="stylesheet" href="../assets/vendor/charts-c3/plugin.css"/>
 <link rel="stylesheet" href="../assets/vendor/jvectormap/jquery-jvectormap-2.0.3.css"/>
 <link rel="stylesheet" href="../assets/css/main.css" type="text/css">
@@ -20,7 +18,7 @@
 <!-- Page Loader -->
 <div class="page-loader-wrapper">
     <div class="loader">
-        <div class="m-t-30"><img src="../assets/images/brand/icon_black.svg" width="48" height="48" alt="ArrOw"></div>
+        <div class="m-t-30"><img src="{{ asset('zenesa tech svg-01.svg') }}" width="48" height="48" alt="ArrOw"></div>
         <p>Please wait...</p>
     </div>
 </div>
@@ -28,13 +26,13 @@
 <nav class="navbar custom-navbar navbar-expand-lg py-2">
     <div class="container-fluid px-0">
         <a href="javascript:void(0);" class="menu_toggle"><i class="fa fa-align-left"></i></a>
-        <a href="index.html" class="navbar-brand"><img src="../assets/images/brand/icon.svg" alt="BigBucket" /> <strong>Big</strong> Bucket</a>
+        <a href="index.html" class="navbar-brand"><img src="{{ asset('zenesa tech svg-01.svg') }}" alt="Zenesa Tech" /> <strong>Zenesa</strong> Tech</a>
         <div id="navbar_main">
             <ul class="navbar-nav mr-auto hidden-xs">
                 <li class="nav-item page-header">
                 <ul class="breadcrumb">
                     <li class="breadcrumb-item"><a href="index.html"><i class="fa fa-home"></i></a></li>
-                    <li class="breadcrumb-item active">Dashboard</li>
+                    <li class="breadcrumb-item active">Host your Website</li>
                 </ul>
                 </li>
             </ul>
